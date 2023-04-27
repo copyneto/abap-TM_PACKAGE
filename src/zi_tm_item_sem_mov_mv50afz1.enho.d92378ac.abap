@@ -1,0 +1,8 @@
+"Name: \PR:SAPMV50A\FO:USEREXIT_SAVE_DOCUMENT_PREPARE\SE:BEGIN\EI
+ENHANCEMENT 0 ZI_TM_ITEM_SEM_MOV_MV50AFZ1.
+INCLUDE zsdi_ctrl_bloqueio_remessa IF FOUND.
+INCLUDE z_tm_item_sem_mov_mv50afz1 IF FOUND.
+INCLUDE zsdi_controle_remessa IF FOUND.
+*INCLUDE zsdi_pedido_intercompany IF FOUND.
+
+ENDENHANCEMENT.
